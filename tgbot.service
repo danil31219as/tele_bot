@@ -8,7 +8,7 @@ Group=vladimir
 
 WorkingDirectory=/home/vladimir/tele_bot/
 Environment="PYTHONPATH=/home/vladimir/tele_bot/"
-ExecStart=/home/vladimir/tele_bot/.venv/bin/python /home/vladimir/tele_bot/ubuntu18/main.py
+ExecStart=/home/vladimir/tele_bot/.venv/bin/python /home/vladimir/tele_bot/main.py
 
 [Install]
 WantedBy=multi-user.target
